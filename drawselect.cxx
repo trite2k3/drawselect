@@ -6,7 +6,7 @@
 int main(void)
 {
   int rx = 0, ry = 0, rw = 0, rh = 0;
-  int btn_pressed = 0, done = 0;
+  int done = 0;
 
   XEvent ev;
   Display *disp = XOpenDisplay(NULL);
